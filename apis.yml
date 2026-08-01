@@ -1,22 +1,54 @@
 aid: sosh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sosh.png
 name: Sosh
-description: Sosh is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sosh was a San Francisco-based social-discovery mobile app (founded 2010)
+  that acted as a "social concierge," giving members a personalized collection of local
+  activities, events, and places to do and share. It was backed by Battery Ventures and
+  Khosla Ventures among others. Sosh was acqui-hired by on-demand delivery service Postmates
+  in November 2015 and the consumer app was subsequently discontinued. Enrichment research
+  (WebFetch) found no surviving product, developer portal, documentation, or public API;
+  the sosh.com domain is now a parked "for sale" listing. There is no live API surface to
+  enrich, so no API artifacts were produced.
 url: https://raw.githubusercontent.com/api-evangelist/sosh/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acqui-hired by Postmates in November 2015; consumer app discontinued; sosh.com parked/for-sale.
+x-status-source: https://techcrunch.com/2015/11/05/postmates-acquires-sosh/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Social Discovery
+- Local Activities
+- Consumer Mobile App
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
