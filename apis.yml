@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: Acqui-hired by Postmates in November 2015; consumer app discontinued; sosh.com parked/for-sale.
 x-status-source: https://techcrunch.com/2015/11/05/postmates-acquires-sosh/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
